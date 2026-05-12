@@ -1,0 +1,43 @@
+\documentclass[10pt]{scrartcl}
+
+\usepackage[a4paper, left=20mm, right=20mm, top=25mm, bottom=25mm]{geometry}
+\usepackage[english]{babel}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{csquotes}
+\usepackage{url}
+\usepackage{amssymb}
+\usepackage{siunitx}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{enumitem}
+
+\usepackage[colorlinks=true,
+            linkcolor=black,
+            citecolor=black,
+            urlcolor=blue]{hyperref}
+
+\title{TITLE}
+\author{
+    Your Name \\
+    \texttt{Name}
+    \and
+    Your Name 2 \\
+    \texttt{Name2}
+}
+\date{\today}
+
+\subtitle{Exercises Sheet X}
+\renewcommand{\thesubsection}{\alph{subsection})}
+\setkomafont{subsection}{\normalfont}
+\KOMAoptions{numbers=noenddot}
+
+\begin{document}
+
+    \maketitle
+
+    \input{exercises/01}
+
+\end{document}
+
